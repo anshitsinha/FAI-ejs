@@ -841,222 +841,229 @@
                 <!-- ye baki hai -->
                 <!-- 2 -->
 
+                <div class="flex gp-1rem px-2" style="line-height: 1.5;"> 
+<span>2)</span> <p>
+    On the dropdown menu below, indicate which behaviors the person uses to achieve the communicative outcomes that are listed...
+ </p>
+                </div>
 
+<div>
+    <form
+    id="communicativeForm"
+    onsubmit="handleSubmitCommunicativeForm(event)"
+  >
+    <div class="communicativeForm-group">
+      <label for="requestAttention">Request attention</label>
+      <select id="requestAttention" multiple>
+        <option value="complex_speech">Complex speech</option>
+        <option value="multiple_word_phrases">Multiple word phrases</option>
+        <option value="one_word_utterances">One word utterances</option>
+        <option value="echolalia">Echolalia</option>
+        <option value="other_vocalizing">Other vocalizing</option>
+        <option value="complex_signing">Complex signing</option>
+        <option value="single_signs">Single signs</option>
+        <option value="pointing">Pointing</option>
+        <option value="leading">Leading</option>
+        <option value="shakes_head">Shakes head</option>
+        <option value="grab_reach">Grab/reach</option>
+        <option value="gives_objects">Gives objects</option>
+        <option value="increased_movement">Increased movement</option>
+        <option value="moves_close_to_you">Moves close to you</option>
+        <option value="moves_away_or_leaves">Moves away or leaves</option>
+        <option value="fixed_gaze">Fixed gaze</option>
+        <option value="facial_expression">Facial expression</option>
+        <option value="aggression">Aggression</option>
+        <option value="self_injury">Self-injury</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
 
-                <form
-                id="communicativeForm"
-                onsubmit="handleSubmitCommunicativeForm(event)"
-              >
-                <div class="communicativeForm-group">
-                  <label for="requestAttention">Request attention</label>
-                  <select id="requestAttention" multiple>
-                    <option value="complex_speech">Complex speech</option>
-                    <option value="multiple_word_phrases">Multiple word phrases</option>
-                    <option value="one_word_utterances">One word utterances</option>
-                    <option value="echolalia">Echolalia</option>
-                    <option value="other_vocalizing">Other vocalizing</option>
-                    <option value="complex_signing">Complex signing</option>
-                    <option value="single_signs">Single signs</option>
-                    <option value="pointing">Pointing</option>
-                    <option value="leading">Leading</option>
-                    <option value="shakes_head">Shakes head</option>
-                    <option value="grab_reach">Grab/reach</option>
-                    <option value="gives_objects">Gives objects</option>
-                    <option value="increased_movement">Increased movement</option>
-                    <option value="moves_close_to_you">Moves close to you</option>
-                    <option value="moves_away_or_leaves">Moves away or leaves</option>
-                    <option value="fixed_gaze">Fixed gaze</option>
-                    <option value="facial_expression">Facial expression</option>
-                    <option value="aggression">Aggression</option>
-                    <option value="self_injury">Self-injury</option>
-                    <option value="other">Other</option>
-                  </select>
-                </div>
-          
-                <div class="communicativeForm-group">
-                  <label for="requestHelp">Request help</label>
-                  <select id="requestHelp" multiple>
-                    <option value="complex_speech">Complex speech</option>
-                    <option value="multiple_word_phrases">Multiple word phrases</option>
-                    <option value="one_word_utterances">One word utterances</option>
-                    <option value="echolalia">Echolalia</option>
-                    <option value="other_vocalizing">Other vocalizing</option>
-                    <option value="complex_signing">Complex signing</option>
-                    <option value="single_signs">Single signs</option>
-                    <option value="pointing">Pointing</option>
-                    <option value="leading">Leading</option>
-                    <option value="shakes_head">Shakes head</option>
-                    <option value="grab_reach">Grab/reach</option>
-                    <option value="gives_objects">Gives objects</option>
-                    <option value="increased_movement">Increased movement</option>
-                    <option value="moves_close_to_you">Moves close to you</option>
-                    <option value="moves_away_or_leaves">Moves away or leaves</option>
-                    <option value="fixed_gaze">Fixed gaze</option>
-                    <option value="facial_expression">Facial expression</option>
-                    <option value="aggression">Aggression</option>
-                    <option value="self_injury">Self-injury</option>
-                    <option value="other">Other</option>
-                  </select>
-                </div>
-          
-                <div class="communicativeForm-group">
-                  <label for="Food">Request preferred Food/objects/activities</label>
-                  <select id="Food" multiple>
-                    <option value="complex_speech">Complex speech</option>
-                    <option value="multiple_word_phrases">Multiple word phrases</option>
-                    <option value="one_word_utterances">One word utterances</option>
-                    <option value="echolalia">Echolalia</option>
-                    <option value="other_vocalizing">Other vocalizing</option>
-                    <option value="complex_signing">Complex signing</option>
-                    <option value="single_signs">Single signs</option>
-                    <option value="pointing">Pointing</option>
-                    <option value="leading">Leading</option>
-                    <option value="shakes_head">Shakes head</option>
-                    <option value="grab_reach">Grab/reach</option>
-                    <option value="gives_objects">Gives objects</option>
-                    <option value="increased_movement">Increased movement</option>
-                    <option value="moves_close_to_you">Moves close to you</option>
-                    <option value="moves_away_or_leaves">Moves away or leaves</option>
-                    <option value="fixed_gaze">Fixed gaze</option>
-                    <option value="facial_expression">Facial expression</option>
-                    <option value="aggression">Aggression</option>
-                    <option value="self_injury">Self-injury</option>
-                    <option value="other">Other</option>
-                  </select>
-                </div>
-          
-                <div class="communicativeForm-group">
-                  <label for="requestBreak">Request break</label>
-                  <select id="requestBreak" multiple>
-                    <option value="complex_speech">Complex speech</option>
-                    <option value="multiple_word_phrases">Multiple word phrases</option>
-                    <option value="one_word_utterances">One word utterances</option>
-                    <option value="echolalia">Echolalia</option>
-                    <option value="other_vocalizing">Other vocalizing</option>
-                    <option value="complex_signing">Complex signing</option>
-                    <option value="single_signs">Single signs</option>
-                    <option value="pointing">Pointing</option>
-                    <option value="leading">Leading</option>
-                    <option value="shakes_head">Shakes head</option>
-                    <option value="grab_reach">Grab/reach</option>
-                    <option value="gives_objects">Gives objects</option>
-                    <option value="increased_movement">Increased movement</option>
-                    <option value="moves_close_to_you">Moves close to you</option>
-                    <option value="moves_away_or_leaves">Moves away or leaves</option>
-                    <option value="fixed_gaze">Fixed gaze</option>
-                    <option value="facial_expression">Facial expression</option>
-                    <option value="aggression">Aggression</option>
-                    <option value="self_injury">Self-injury</option>
-                    <option value="other">Other</option>
-                  </select>
-                </div>
-          
-                <div class="communicativeForm-group">
-                  <label for="something">Show you something or some place</label>
-                  <select id="something" multiple>
-                    <option value="complex_speech">Complex speech</option>
-                    <option value="multiple_word_phrases">Multiple word phrases</option>
-                    <option value="one_word_utterances">One word utterances</option>
-                    <option value="echolalia">Echolalia</option>
-                    <option value="other_vocalizing">Other vocalizing</option>
-                    <option value="complex_signing">Complex signing</option>
-                    <option value="single_signs">Single signs</option>
-                    <option value="pointing">Pointing</option>
-                    <option value="leading">Leading</option>
-                    <option value="shakes_head">Shakes head</option>
-                    <option value="grab_reach">Grab/reach</option>
-                    <option value="gives_objects">Gives objects</option>
-                    <option value="increased_movement">Increased movement</option>
-                    <option value="moves_close_to_you">Moves close to you</option>
-                    <option value="moves_away_or_leaves">Moves away or leaves</option>
-                    <option value="fixed_gaze">Fixed gaze</option>
-                    <option value="facial_expression">Facial expression</option>
-                    <option value="aggression">Aggression</option>
-                    <option value="self_injury">Self-injury</option>
-                    <option value="other">Other</option>
-                  </select>
-                </div>
-          
-                <div class="communicativeForm-group">
-                  <label for="pain">Indicate physical pain (headache, illness)</label>
-                  <select id="pain" multiple>
-                    <option value="complex_speech">Complex speech</option>
-                    <option value="multiple_word_phrases">Multiple word phrases</option>
-                    <option value="one_word_utterances">One word utterances</option>
-                    <option value="echolalia">Echolalia</option>
-                    <option value="other_vocalizing">Other vocalizing</option>
-                    <option value="complex_signing">Complex signing</option>
-                    <option value="single_signs">Single signs</option>
-                    <option value="pointing">Pointing</option>
-                    <option value="leading">Leading</option>
-                    <option value="shakes_head">Shakes head</option>
-                    <option value="grab_reach">Grab/reach</option>
-                    <option value="gives_objects">Gives objects</option>
-                    <option value="increased_movement">Increased movement</option>
-                    <option value="moves_close_to_you">Moves close to you</option>
-                    <option value="moves_away_or_leaves">Moves away or leaves</option>
-                    <option value="fixed_gaze">Fixed gaze</option>
-                    <option value="facial_expression">Facial expression</option>
-                    <option value="aggression">Aggression</option>
-                    <option value="self_injury">Self-injury</option>
-                    <option value="other">Other</option>
-                  </select>
-                </div>
-          
-                <div class="communicativeForm-group">
-                  <label for="unhappiness">Indicate confusion or unhappiness</label>
-                  <select id="unhappiness" multiple>
-                    <option value="complex_speech">Complex speech</option>
-                    <option value="multiple_word_phrases">Multiple word phrases</option>
-                    <option value="one_word_utterances">One word utterances</option>
-                    <option value="echolalia">Echolalia</option>
-                    <option value="other_vocalizing">Other vocalizing</option>
-                    <option value="complex_signing">Complex signing</option>
-                    <option value="single_signs">Single signs</option>
-                    <option value="pointing">Pointing</option>
-                    <option value="leading">Leading</option>
-                    <option value="shakes_head">Shakes head</option>
-                    <option value="grab_reach">Grab/reach</option>
-                    <option value="gives_objects">Gives objects</option>
-                    <option value="increased_movement">Increased movement</option>
-                    <option value="moves_close_to_you">Moves close to you</option>
-                    <option value="moves_away_or_leaves">Moves away or leaves</option>
-                    <option value="fixed_gaze">Fixed gaze</option>
-                    <option value="facial_expression">Facial expression</option>
-                    <option value="aggression">Aggression</option>
-                    <option value="self_injury">Self-injury</option>
-                    <option value="other">Other</option>
-                  </select>
-                </div>
-          
-                <div class="communicativeForm-group">
-                  <label for="Protest">Protest or reject a Situation or activity</label>
-                  <select id="Protest" multiple>
-                    <option value="complex_speech">Complex speech</option>
-                    <option value="multiple_word_phrases">Multiple word phrases</option>
-                    <option value="one_word_utterances">One word utterances</option>
-                    <option value="echolalia">Echolalia</option>
-                    <option value="other_vocalizing">Other vocalizing</option>
-                    <option value="complex_signing">Complex signing</option>
-                    <option value="single_signs">Single signs</option>
-                    <option value="pointing">Pointing</option>
-                    <option value="leading">Leading</option>
-                    <option value="shakes_head">Shakes head</option>
-                    <option value="grab_reach">Grab/reach</option>
-                    <option value="gives_objects">Gives objects</option>
-                    <option value="increased_movement">Increased movement</option>
-                    <option value="moves_close_to_you">Moves close to you</option>
-                    <option value="moves_away_or_leaves">Moves away or leaves</option>
-                    <option value="fixed_gaze">Fixed gaze</option>
-                    <option value="facial_expression">Facial expression</option>
-                    <option value="aggression">Aggression</option>
-                    <option value="self_injury">Self-injury</option>
-                    <option value="other">Other</option>
-                  </select>
-                </div>
-          
-                <button type="submit">Submit</button>
-              </form>
+    <div class="communicativeForm-group">
+      <label for="requestHelp">Request help</label>
+      <select id="requestHelp" multiple>
+        <option value="complex_speech">Complex speech</option>
+        <option value="multiple_word_phrases">Multiple word phrases</option>
+        <option value="one_word_utterances">One word utterances</option>
+        <option value="echolalia">Echolalia</option>
+        <option value="other_vocalizing">Other vocalizing</option>
+        <option value="complex_signing">Complex signing</option>
+        <option value="single_signs">Single signs</option>
+        <option value="pointing">Pointing</option>
+        <option value="leading">Leading</option>
+        <option value="shakes_head">Shakes head</option>
+        <option value="grab_reach">Grab/reach</option>
+        <option value="gives_objects">Gives objects</option>
+        <option value="increased_movement">Increased movement</option>
+        <option value="moves_close_to_you">Moves close to you</option>
+        <option value="moves_away_or_leaves">Moves away or leaves</option>
+        <option value="fixed_gaze">Fixed gaze</option>
+        <option value="facial_expression">Facial expression</option>
+        <option value="aggression">Aggression</option>
+        <option value="self_injury">Self-injury</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <div class="communicativeForm-group">
+      <label for="Food">Request preferred Food/objects/activities</label>
+      <select id="Food" multiple>
+        <option value="complex_speech">Complex speech</option>
+        <option value="multiple_word_phrases">Multiple word phrases</option>
+        <option value="one_word_utterances">One word utterances</option>
+        <option value="echolalia">Echolalia</option>
+        <option value="other_vocalizing">Other vocalizing</option>
+        <option value="complex_signing">Complex signing</option>
+        <option value="single_signs">Single signs</option>
+        <option value="pointing">Pointing</option>
+        <option value="leading">Leading</option>
+        <option value="shakes_head">Shakes head</option>
+        <option value="grab_reach">Grab/reach</option>
+        <option value="gives_objects">Gives objects</option>
+        <option value="increased_movement">Increased movement</option>
+        <option value="moves_close_to_you">Moves close to you</option>
+        <option value="moves_away_or_leaves">Moves away or leaves</option>
+        <option value="fixed_gaze">Fixed gaze</option>
+        <option value="facial_expression">Facial expression</option>
+        <option value="aggression">Aggression</option>
+        <option value="self_injury">Self-injury</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <div class="communicativeForm-group">
+      <label for="requestBreak">Request break</label>
+      <select id="requestBreak" multiple>
+        <option value="complex_speech">Complex speech</option>
+        <option value="multiple_word_phrases">Multiple word phrases</option>
+        <option value="one_word_utterances">One word utterances</option>
+        <option value="echolalia">Echolalia</option>
+        <option value="other_vocalizing">Other vocalizing</option>
+        <option value="complex_signing">Complex signing</option>
+        <option value="single_signs">Single signs</option>
+        <option value="pointing">Pointing</option>
+        <option value="leading">Leading</option>
+        <option value="shakes_head">Shakes head</option>
+        <option value="grab_reach">Grab/reach</option>
+        <option value="gives_objects">Gives objects</option>
+        <option value="increased_movement">Increased movement</option>
+        <option value="moves_close_to_you">Moves close to you</option>
+        <option value="moves_away_or_leaves">Moves away or leaves</option>
+        <option value="fixed_gaze">Fixed gaze</option>
+        <option value="facial_expression">Facial expression</option>
+        <option value="aggression">Aggression</option>
+        <option value="self_injury">Self-injury</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <div class="communicativeForm-group">
+      <label for="something">Show you something or some place</label>
+      <select id="something" multiple>
+        <option value="complex_speech">Complex speech</option>
+        <option value="multiple_word_phrases">Multiple word phrases</option>
+        <option value="one_word_utterances">One word utterances</option>
+        <option value="echolalia">Echolalia</option>
+        <option value="other_vocalizing">Other vocalizing</option>
+        <option value="complex_signing">Complex signing</option>
+        <option value="single_signs">Single signs</option>
+        <option value="pointing">Pointing</option>
+        <option value="leading">Leading</option>
+        <option value="shakes_head">Shakes head</option>
+        <option value="grab_reach">Grab/reach</option>
+        <option value="gives_objects">Gives objects</option>
+        <option value="increased_movement">Increased movement</option>
+        <option value="moves_close_to_you">Moves close to you</option>
+        <option value="moves_away_or_leaves">Moves away or leaves</option>
+        <option value="fixed_gaze">Fixed gaze</option>
+        <option value="facial_expression">Facial expression</option>
+        <option value="aggression">Aggression</option>
+        <option value="self_injury">Self-injury</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <div class="communicativeForm-group">
+      <label for="pain">Indicate physical pain (headache, illness)</label>
+      <select id="pain" multiple>
+        <option value="complex_speech">Complex speech</option>
+        <option value="multiple_word_phrases">Multiple word phrases</option>
+        <option value="one_word_utterances">One word utterances</option>
+        <option value="echolalia">Echolalia</option>
+        <option value="other_vocalizing">Other vocalizing</option>
+        <option value="complex_signing">Complex signing</option>
+        <option value="single_signs">Single signs</option>
+        <option value="pointing">Pointing</option>
+        <option value="leading">Leading</option>
+        <option value="shakes_head">Shakes head</option>
+        <option value="grab_reach">Grab/reach</option>
+        <option value="gives_objects">Gives objects</option>
+        <option value="increased_movement">Increased movement</option>
+        <option value="moves_close_to_you">Moves close to you</option>
+        <option value="moves_away_or_leaves">Moves away or leaves</option>
+        <option value="fixed_gaze">Fixed gaze</option>
+        <option value="facial_expression">Facial expression</option>
+        <option value="aggression">Aggression</option>
+        <option value="self_injury">Self-injury</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <div class="communicativeForm-group">
+      <label for="unhappiness">Indicate confusion or unhappiness</label>
+      <select id="unhappiness" multiple>
+        <option value="complex_speech">Complex speech</option>
+        <option value="multiple_word_phrases">Multiple word phrases</option>
+        <option value="one_word_utterances">One word utterances</option>
+        <option value="echolalia">Echolalia</option>
+        <option value="other_vocalizing">Other vocalizing</option>
+        <option value="complex_signing">Complex signing</option>
+        <option value="single_signs">Single signs</option>
+        <option value="pointing">Pointing</option>
+        <option value="leading">Leading</option>
+        <option value="shakes_head">Shakes head</option>
+        <option value="grab_reach">Grab/reach</option>
+        <option value="gives_objects">Gives objects</option>
+        <option value="increased_movement">Increased movement</option>
+        <option value="moves_close_to_you">Moves close to you</option>
+        <option value="moves_away_or_leaves">Moves away or leaves</option>
+        <option value="fixed_gaze">Fixed gaze</option>
+        <option value="facial_expression">Facial expression</option>
+        <option value="aggression">Aggression</option>
+        <option value="self_injury">Self-injury</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <div class="communicativeForm-group">
+      <label for="Protest">Protest or reject a Situation or activity</label>
+      <select id="Protest" multiple>
+        <option value="complex_speech">Complex speech</option>
+        <option value="multiple_word_phrases">Multiple word phrases</option>
+        <option value="one_word_utterances">One word utterances</option>
+        <option value="echolalia">Echolalia</option>
+        <option value="other_vocalizing">Other vocalizing</option>
+        <option value="complex_signing">Complex signing</option>
+        <option value="single_signs">Single signs</option>
+        <option value="pointing">Pointing</option>
+        <option value="leading">Leading</option>
+        <option value="shakes_head">Shakes head</option>
+        <option value="grab_reach">Grab/reach</option>
+        <option value="gives_objects">Gives objects</option>
+        <option value="increased_movement">Increased movement</option>
+        <option value="moves_close_to_you">Moves close to you</option>
+        <option value="moves_away_or_leaves">Moves away or leaves</option>
+        <option value="fixed_gaze">Fixed gaze</option>
+        <option value="facial_expression">Facial expression</option>
+        <option value="aggression">Aggression</option>
+        <option value="self_injury">Self-injury</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <button type="submit">Submit</button>
+  </form>
+</div>
+             
 
 
                 <!-- ye baki hai -->
